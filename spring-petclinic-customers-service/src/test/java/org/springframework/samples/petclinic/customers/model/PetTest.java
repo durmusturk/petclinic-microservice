@@ -1,11 +1,11 @@
 package org.springframework.samples.petclinic.customers.model;
-​
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
-​
+
+import java.util.Date;
+
 import org.junit.jupiter.api.Test;
-​
 public class PetTest {
-​
     @Test
     public void testGetName(){
         //Arrange
@@ -15,7 +15,6 @@ public class PetTest {
         //Assert
         assertEquals("Fluffy", pet.getName());
     }
-​
     @Test
     public void testGetOwner(){
         //Arrange
@@ -27,7 +26,6 @@ public class PetTest {
         //Assert
         assertEquals("Call", pet.getOwner().getFirstName());
     }
-
     @Test
     public void testBirthDate(){
         //Arrange
