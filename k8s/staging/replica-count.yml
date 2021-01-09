@@ -13,7 +13,7 @@ metadata:
   name: api-gateway
 spec:
   rules:
-    - host: petclinic04.durmusturk.com
+    - host: petclinic-staging.durmusturk.com
       http:
         paths:
           - backend:
@@ -27,7 +27,7 @@ metadata:
   name: customers-service
 spec:
   rules:
-  - host: petclinic04.durmusturk.com
+  - host: petclinic-staging.durmusturk.com
     http:
       paths:
       - backend:
@@ -48,7 +48,7 @@ metadata:
   name: vets-service
 spec:
   rules:
-  - host: petclinic04.durmusturk.com
+  - host: petclinic-staging.durmusturk.com
     http:
       paths:
       - backend:
@@ -64,7 +64,7 @@ metadata:
   name: visits-service
 spec:
   rules:
-  - host: petclinic04.durmusturk.com
+  - host: petclinic-staging.durmusturk.com
     http:
       paths:
       - backend:
